@@ -7,5 +7,5 @@ tests : Test
 tests =
   suite "Fibonacci Tests"
     [ test "empty"
-      <| assertEqual (fib [] 0) []
+      <| assertEqual [] (fibonacci 0)
     ]
