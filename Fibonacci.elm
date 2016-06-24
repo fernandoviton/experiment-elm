@@ -1,3 +1,5 @@
+module Fibonacci exposing (fib)
+
 import Html exposing (text)
 
 fib curFib lengthToAppend =
