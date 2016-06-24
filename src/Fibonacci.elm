@@ -4,7 +4,8 @@ import Html exposing (text)
 
 fibonacci length =
   if length == 0 then []
-  else fib [0, 1] length
+  else if length == 1 then [1]
+  else fib [1, 1] (length - 2)
 
 fib curFib lengthToAppend =
   if lengthToAppend <= 0 then curFib
