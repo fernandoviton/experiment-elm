@@ -12,5 +12,5 @@ gulp.task('run-tests', ['build-tests'], shell.task([
 gulp.task('default', function () {
   gulp.run('run-tests')
 
-  gulp.watch(['**/*.elm', 'test/**/*.elm'], ['run-tests'])
+  gulp.watch(['**/*.json', 'src/**/*.elm', 'test/**/*.elm'], ['run-tests'])
 })
