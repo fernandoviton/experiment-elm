@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     shell = require('gulp-shell');
 
 gulp.task('build-tests', shell.task([
-  'elm make --warn test/FibonacciTest.elm --output continuousTest.js'
+  'elm make --warn test/TestRunner.elm --output continuousTest.js'
 ]))
 
 gulp.task('run-tests', ['build-tests'], shell.task([

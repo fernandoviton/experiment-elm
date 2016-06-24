@@ -1,4 +1,3 @@
-
 module FibonacciTest exposing (..)
 
 import ElmTest exposing (..)
@@ -10,8 +9,3 @@ tests =
     [ test "empty"
       <| assertEqual (fib [] 0) []
     ]
-
-
-main : Program Never
-main =
-    runSuite tests
