@@ -2,3 +2,7 @@
 elm-stuff/
 # elm-repl generated files
 repl-temp-*
+# continuous test output file
+continuousTest.js
+#js
+node_modules/

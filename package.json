@@ -1,0 +1,26 @@
+{
+  "name": "experiment-elm",
+  "version": "1.0.0",
+  "description": "A place to experiment with elm language",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoviton/experiment-elm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandoviton/experiment-elm/issues"
+  },
+  "homepage": "https://github.com/fernandoviton/experiment-elm#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  }
+}
